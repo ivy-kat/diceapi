@@ -13,9 +13,11 @@ Git から取得してローカルで実行できる手順を示します。
 ```bash
 git clone https://github.com/あなたのアカウント/diceapi.git
 cd diceapi
-
+```
 ## 2. サーバを起動
+```bash
 ./mvnw spring-boot:run
+```
 
 ## 3. API を呼び出す
 
