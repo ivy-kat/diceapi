@@ -1,0 +1,68 @@
+# =========================
+# Maven / Spring Boot
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# =========================
+# IDE / エディタ
+# =========================
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# =========================
+# OS 一時ファイル
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# ログファイル
+# =========================
+*.log
+
+# =========================
+# Maven wrapper
+# =========================
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# =========================
+# ドキュメント等
+# =========================
+HELP.md
