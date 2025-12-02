@@ -32,18 +32,23 @@ JSON 形式で乱数結果が返ります
 ## 4. サーバ停止
 
 ターミナルで Ctrl + C を押す
+
 正しく停止されない場合は、もう一度押す必要があるかもしれません
 
 ## 5. 注意点
 
 直接 .class や target/ は Git に含まれていません
+
 プロジェクトの変更はコミットして自分のリポジトリに push してください
+
 Spring Boot のコードは Java で書かれていますが、ブラウザから API を試せます
 
 ## 6. 追加情報
 
 DiceController.java が API の実装です
+
 DiceapiApplication.java は Spring Boot の起動用テンプレートです（触る必要なし）
+
 JSON の戻り値は Map<String,Integer> で生成されています
 
 
